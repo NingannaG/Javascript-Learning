@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="script .js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 1000px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .login-section, .signup-section {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-section {
+            width: 60%;
+        }
+        .signup-section {
+            width: 40%;
+            background: linear-gradient(to bottom right, #00c6ff, #0072ff);
+            color: #fff;
+        }
+        .login-section h2 {
+            margin-bottom: 20px;
+        }
+        .social-login {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .social-login button {
+            background: none;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .social-login button img {
+            width: 20px;
+            height: 20px;
+        }
+        .divider {
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .divider span {
+            background: #fff;
+            padding: 0 10px;
+            position: relative;
+            top: -12px;
+        }
+        .login-form input[type="email"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-form button:hover {
+            background-color: #0056b3;
+        }
+        .signup-section h2 {
+            margin-bottom: 20px;
+        }
+        .signup-section p {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .signup-section button {
+            background-color: #fff;
+            color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-section">
+            <img src="logo.png" alt="Logo" style="width: 100px; margin-bottom: 20px;">
+            <h2>Login to Your Account</h2>
+            <p>Login using social networks</p>
+            <div class="social-login">
+                <button><img src="facebook.png" alt="book"></button>
+                <button><img src="google.png" alt="Google"></button>
+                <button><img src="linkedin.png" alt="LinkedIn"></button>
+            </div>
+            <div class="divider"><span>OR</span></div>
+            <form class="login-form" action="#" method="post">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+        <div class="signup-section">
+            <h2>New Here?</h2>
+            <p>Sign up and discover a great amount of new opportunities!</p>
+            <button>Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>
