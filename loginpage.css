@@ -1,0 +1,73 @@
+.loginpage{
+    height: 600px;
+    width: 400px;
+   border: 6px solid rgb(250, 248, 248);
+    border-radius: 25px;
+   
+   
+    
+
+}
+.login{
+    height: 50px;
+    
+    text-align: center;
+    font-weight: 1000;
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+.input{
+    height: 35px;
+    width: 300px;
+    margin: 10px;
+    border: 2px solid rgb(237, 228, 228);
+   border-radius: 5px;
+    text-align: left;
+    font-weight: 00;
+    
+    cursor:pointer grabbing;
+}
+.box{
+    padding: 40px;
+ 
+}
+.label{
+    font-weight: 200;
+}
+button{
+    height: 35px;width: 555px;
+    border-radius: 10px;
+    color: white;
+    border: 3px solid rgb(198, 183, 183);
+    font-size: bold;
+    background-color: rgb(6, 6, 6);
+    font-family:Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif Arial, Helvetica, sans-serif;
+}
+.btn{
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    
+}
+.google{
+    height: 25px;
+    width: 300px;
+    margin: 10px;
+    border: 2px solid rgb(190, 179, 179);
+   border-radius: 5px;
+    text-align: center;
+    font-weight:bold;
+    font-size: 200;
+    padding: 10px;
+
+}
+.account{
+    padding: 5px;
+}
